@@ -19,7 +19,7 @@ export function activate(context: vscode.ExtensionContext) {
 setInterval(async () => {
 	await runFunctionCommentChaos();
 	await runVariableRenameChaos();
-}, 5000); // every hour
+}, 3600000); // every hour
 
 
 }
